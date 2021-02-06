@@ -17,49 +17,36 @@ header {
     background-attachment: fixed;
 }
 
-#logo {
-    width: 446px;
-    height: 82px;
+.header-container {
+    width: 80%;
+    margin: auto;
 }
 
-nav {
+#logo {
+    width: 303px;
+    height: 56px;
+    margin: 15px 15px;
+    border: solid 1px red;
+}
+
+
+
+
+.navigation-container {
+    
+    border: solid 1px red;
     display: inline-block;
 }
 
-.navigation-container{
-    border: solid 1px red;
-    display: inline;
-}
 li {
-    border: solid 1px red;
-    padding: 0 10px;
+    border: solid 1px rgb(0, 255, 13);
+    padding: 10px;
+    font-family: raleway, Arial, helvetica;
     list-style: none;
-    color: white;
     float: right;
 }
-a {
-    color: white;
+
+.navigation-links {
     text-decoration: none;
-}
-
-h2 {
-    text-transform: uppercase;
     color: white;
-    font-family: raleway, sans-serif, Helvetica;
-    font-weight: 200;
-    font-size: 90px;
-}
-
-p {
-    color: white;
-    font-family: raleway, sans-serif, Helvetica;
-    text-transform: uppercase;
-}
-
-#order-now-button {
-    padding: 10px;
-    color: white;
-    background: transparent;;
-    border: solid 1px white;
-    border-radius: 50px;
 }
