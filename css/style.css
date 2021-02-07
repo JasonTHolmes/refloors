@@ -10,7 +10,7 @@
 header {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -26,7 +26,8 @@ header {
     float: left;
     width: 303px;
     height: 56px;
-    margin: 15px 15px;
+    margin: 25px 15px;
+    /* border: solid 1px rgb(0, 255, 13); */
 
 }
 
@@ -34,6 +35,8 @@ header {
     margin-top: 30px;
     margin-left: 20px;
     display: inline-block;
+    /* border: solid 1px rgb(0, 255, 13); */
+
 }
 
 li {
@@ -47,6 +50,81 @@ li {
 }
 
 .navigation-links {
+    text-transform: uppercase;
     text-decoration: none;
     color: white;
+}
+
+.login-container {
+    margin: 30px;
+    float: right;
+    /* border: solid 1px red; */
+}
+
+.feature-text-container {
+    margin: 200px  0;
+    padding: 0;
+    position: absolute;
+}
+
+.feature-text {
+    position: relative;
+    margin:0;
+    padding: 0;
+    float: left;
+    display: inline;
+    color: white;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 60px;
+    width: 500px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    /* border: solid 1px red; */
+}
+
+.feature-description-container {
+    width: 500px;
+    margin: 370px  0; 
+    position: absolute;
+    /* border: solid 1px red; */
+
+}
+
+.feature-description {
+    font-family: raleway;
+    font-weight: 200;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    color: white;
+}
+
+
+.submit-button-container {
+    position: absolute;
+    display: inline;
+    margin-top: 650px;
+    margin-left: -750px;
+    float: left;
+}
+
+
+
+#order-now-button {
+    text-transform: uppercase;
+    font-family: raleway;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    padding: 15px 25px;
+    border: solid 1px white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
