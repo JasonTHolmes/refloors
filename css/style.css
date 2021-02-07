@@ -27,20 +27,15 @@ header {
     width: 303px;
     height: 56px;
     margin: 25px 15px;
-    /* border: solid 1px rgb(0, 255, 13); */
-
 }
 
 .navigation-container {
     margin-top: 30px;
     margin-left: 20px;
     display: inline-block;
-    /* border: solid 1px rgb(0, 255, 13); */
-
 }
 
 li {
-    /* border: solid 1px rgb(0, 255, 13); */
     padding: 10px;
     margin-right: 30px;
     font-family: raleway, Arial, helvetica;
@@ -58,7 +53,6 @@ li {
 .login-container {
     margin: 30px;
     float: right;
-    /* border: solid 1px red; */
 }
 
 .feature-text-container {
@@ -81,15 +75,12 @@ li {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: left;
-    /* border: solid 1px red; */
 }
 
 .feature-description-container {
     width: 500px;
     margin: 370px  0; 
     position: absolute;
-    /* border: solid 1px red; */
-
 }
 
 .feature-description {
@@ -102,7 +93,6 @@ li {
     color: white;
 }
 
-
 .submit-button-container {
     position: absolute;
     display: inline;
@@ -110,8 +100,6 @@ li {
     margin-left: -750px;
     float: left;
 }
-
-
 
 #order-now-button {
     text-transform: uppercase;
