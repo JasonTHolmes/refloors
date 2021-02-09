@@ -24,6 +24,7 @@ header {
 }
 
 .content-container {
+    border: solid 1px red;
     width: 65%;
     height: 100vh;
     margin: auto;
@@ -86,6 +87,7 @@ a {
 /* ---------- */
 
 .featured-collection-container {
+    border: solid 1px red;
     height: 91vh;
 }
 
@@ -117,6 +119,7 @@ a {
 
 
 .order-now-button-container{
+    border: solid 1px red;
     display: inline;
 }
 
