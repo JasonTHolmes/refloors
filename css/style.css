@@ -85,9 +85,10 @@ a {
 /* HEADER > FEATURED COLLECTION */
 /* ---------- */
 
-.featured-collection-container {
+/* .featured-collection-container {
+    border: solid 1px red;
     height: 50vh;
-}
+} */
 
 .feature-text-container {
     width: 300px;
@@ -95,6 +96,7 @@ a {
 }
 
 .feature-text {
+    margin: 0;
     font-size: 60px;
     font-weight: 200;
     color: white;
