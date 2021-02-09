@@ -236,7 +236,7 @@ a {
   }
 
   .floor-photo img {
-    opacity: 0.7;
+    opacity: 0.3;
     width: 100%;
     height: auto;
     -webkit-transform: scale(1.15);
@@ -250,7 +250,7 @@ a {
   }
 
   .floor-photo img:hover {
-    opacity: 1;
+    opacity: .7;
     -webkit-transform: scale(1.038);
     -ms-transform: scale(1.038);
     transform: scale(1.038);
