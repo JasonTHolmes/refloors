@@ -165,6 +165,46 @@ a {
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------- */
 /* FEATURED SECTION */
 /* ---------- */
@@ -174,14 +214,18 @@ a {
 }
 
 .hardwood-showcase {
+    /* border: solid 1px red; */
     list-style: none;
     width: 100%;
+    margin: auto;
 }
 
 .hardwood-showcase li {
+    /* border: solid 1px red; */
     display: block;
     float: left;
     width: 25%;
+    margin: auto;
   }
 
   .floor-photo {
