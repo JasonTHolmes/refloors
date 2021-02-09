@@ -7,7 +7,16 @@
 /* ---------- */
 /* REUSABLE */
 /* ---------- */
-
+.clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
 
 /* ---------- */
 /* HEADER */
@@ -156,3 +165,49 @@ a {
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
 }
+/* ---------- */
+/* FEATURED SECTION */
+/* ---------- */
+
+.section-featured {
+    padding: 0;
+}
+
+.hardwood-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.hardwood-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+  }
+
+  .floor-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+
+  .floor-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    -o-transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+  }
+
+  .floor-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.038);
+    -ms-transform: scale(1.038);
+    transform: scale(1.038);
+  }
