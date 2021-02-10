@@ -101,7 +101,7 @@ a {
 
 .feature-text-container {
     width: 300px;
-    margin-top: 250px;
+    margin-top: 350px;
 }
 
 .feature-text {
@@ -145,17 +145,15 @@ a {
 }
 
 .arrow-buttons-container {
+    margin-left: 950px;
     display: inline;
 }
 
-.arrow-buttons {
-    text-align: center;
-    height: 60px;
-    width: 60px;
-    float: right;
+.arrow-buttons {    
     border: solid 1px white;
+    padding: 0;
     margin-left: 20px;
-    margin-top: 90px;
+    margin-top: 190px;
     font-size: 25px;
     color: white;
     background-color: transparent;
@@ -164,6 +162,10 @@ a {
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
+    /* text-align: center; */
+    height: 60px;
+    width: 60px;
+    /* float: right; */
 }
 
 /* ---------- */
